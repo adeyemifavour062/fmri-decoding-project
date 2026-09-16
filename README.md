@@ -4,7 +4,7 @@ Decodes brain activity from the Nilearn Haxby 2001 dataset - dectecting whether 
 # What it does
 - Downloads the Haxby dataset through Nilearn
 - Loads the brain images
-- Reads the labels from a CSV file( space seperated, not commas)
+- Reads the labels from a CSV file(space seperated, not commas)
 - Filters data to only the 'face' and 'house' trials
 - Trains a SVC decoder with standardisation and a brain mask
 - Prints out the dataset info, label counts, and cross- validation scores
